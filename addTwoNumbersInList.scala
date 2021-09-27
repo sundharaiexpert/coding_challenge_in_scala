@@ -1,6 +1,4 @@
 
-https://leetcode.com/problems/add-two-numbers/solution/
-
 def addNUmbersInList(l1:List[Int], l2:List[Int]): List[Int] = {
      
     def addWithCarry(lists:(List[Int], List[Int]), carry: Int) = lists match {
